@@ -30,6 +30,8 @@ require (
 	k8s.io/client-go v0.25.4
 )
 
+replace github.com/tursodatabase/libsql-client-go v0.0.0-20240327144008-dd14b387afb3 => github.com/navigue-io/libsql-client-go v0.0.0-20240330223513-55912afe42b4
+
 require (
 	github.com/antlr4-go/antlr/v4 v4.13.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
